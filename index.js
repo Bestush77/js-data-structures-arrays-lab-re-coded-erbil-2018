@@ -31,3 +31,9 @@ function prependDriver(name){
 
 }
 
+function prependDriver(name){
+  var newArray =drivers.slice(0);
+  newArray.unshift(name);
+  return newArray;
+
+}
