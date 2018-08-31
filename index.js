@@ -37,3 +37,9 @@ function removeLastDriver(name){
   return newArray;
 
 }
+function removeFirstDriver(name){
+  var newArray =drivers.slice(0);
+  newArray.shift(name);
+  return newArray;
+
+}
