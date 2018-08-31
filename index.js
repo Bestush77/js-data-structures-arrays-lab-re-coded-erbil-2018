@@ -26,7 +26,7 @@ function appendDriver(name){
 
 function prependDrive(name){
   var newArray =drivers.slice(0);
-  newArray.push(name);
+  newArray.unshift(name);
   return newArray;
 
 }
